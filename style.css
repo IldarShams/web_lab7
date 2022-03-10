@@ -1,0 +1,58 @@
+body 
+{
+	background: #f9e933;
+}
+
+header, main, footer 
+{
+	font-size: 75%;
+	font-family: "Droid Sans";
+	margin: auto;
+	max-width: 855px;
+	min-width: 855px;
+}
+
+a
+{
+	color: red;
+	text-decoration-line: none;
+}
+
+a:hover
+{
+	text-decoration-line: underline;
+}
+
+h1, h2, h3, h4
+{
+	font-family: "Ubuntu";
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+}
+
+header {
+	background: white;
+	overflow: auto;
+}
+
+.left, .contact {
+	float: left;
+	width: 570px;
+}
+header nav, .right, .sitemap {
+	float: right;
+	width: 285px;
+}
+
+main 
+{
+	background: white;
+	overflow: auto;
+}
+
+footer 
+{
+	overflow: auto;
+}
